@@ -13,7 +13,7 @@ namespace TriangleTest
     {
         //Test Case for checking Equilateral Tiangle
         [Test]
-        public void AnalyzeTriangle_Equilateral()
+        public void AnalyzeTriangle_Equilateral_Check()
         {
             //Arrange
             int firstside = 5;
@@ -30,7 +30,7 @@ namespace TriangleTest
 
         //Test case 1 for checking Isoceless Triangle
         [Test]
-        public void AnalyzeTriangle_Isoceless1()
+        public void AnalyzeTriangle_Isoceless1_Check()
         {
             //Arrange
             int firstside = 5;
@@ -46,7 +46,7 @@ namespace TriangleTest
         }
         //Test case 2 for checking Isoceless Triangle
         [Test]
-        public void AnalyzeTriangle_Isoceless2()
+        public void AnalyzeTriangle_Isoceless2_Check()
         {
             //Arrange
             int firstside = 7;
@@ -62,7 +62,7 @@ namespace TriangleTest
         }
         //Test case 3 for checking Isoceless Triangle
         [Test]
-        public void AnalyzeTriangle_Isoceless3()
+        public void AnalyzeTriangle_Isoceless3_Check()
         {
             //Arrange
             int firstside = 5;
@@ -78,7 +78,7 @@ namespace TriangleTest
         }
         //Test case 1 for checking Scalene Triangle
         [Test]
-        public void AnalyzeTriangle_Scalene1()
+        public void AnalyzeTriangle_Scalene1_Check()
         {
             //Arrange
             int firstside = 3;
@@ -94,7 +94,7 @@ namespace TriangleTest
         }
         //Test case 2 for checking Scalene Triangle
         [Test]
-        public void AnalyzeTriangle_Scalene2()
+        public void AnalyzeTriangle_Scalene2_Check()
         {
             //Arrange
             int firstside = 8;
@@ -110,7 +110,7 @@ namespace TriangleTest
         }
         //Test case 3 for checking Scalene Triangle
         [Test]
-        public void AnalyzeTriangle_Scalene3()
+        public void AnalyzeTriangle_Scalene3_Check()
         {
             //Arrange
             int firstside = 6;
@@ -126,7 +126,7 @@ namespace TriangleTest
         }
         //Test case 4 for checking Scalene Triangle
         [Test]
-        public void AnalyzeTriangle_Scalene4()
+        public void AnalyzeTriangle_Scalene4_Check()
         {
             //Arrange
             int firstside = 5;
@@ -142,7 +142,7 @@ namespace TriangleTest
         }
         //Test case 5 for checking Scalene Triangle
         [Test]
-        public void AnalyzeTriangle_Scalene5()
+        public void AnalyzeTriangle_Scalene5_Check()
         {
             //Arrange
             int firstside = 7;
@@ -158,7 +158,7 @@ namespace TriangleTest
         }
         //Test case 1 for checking zero
         [Test]
-        public void AnalyzeTriangle_Zero1()
+        public void AnalyzeTriangle_Zero1_Check()
         {
             //Arrange
             int firstside = 0;
@@ -174,7 +174,7 @@ namespace TriangleTest
         }
         //Test case 2 for checking zero
         [Test]
-        public void AnalyzeTriangle_Zero2()
+        public void AnalyzeTriangle_Zero2_Check()
         {
             //Arrange
             int firstside = 3;
@@ -190,7 +190,7 @@ namespace TriangleTest
         }
         //Test case 3 for checking zero
         [Test]
-        public void AnalyzeTriangle_Zero3()
+        public void AnalyzeTriangle_Zero3_Check()
         {
             //Arrange
             int firstside = 3;
@@ -206,7 +206,7 @@ namespace TriangleTest
         }
         //Test case 1 for checking invalid
         [Test]
-        public void AnalyzeTriangle_Invalid1()
+        public void AnalyzeTriangle_Invalid1_Check()
         {
             //Arrange
             int firstside = 3;
@@ -222,7 +222,7 @@ namespace TriangleTest
         }
         //Test case 2 for checking invalid
         [Test]
-        public void AnalyzeTriangle_Invalid2()
+        public void AnalyzeTriangle_Invalid2_Check()
         {
             //Arrange
             int firstside = 32;
@@ -238,7 +238,7 @@ namespace TriangleTest
         }
         //Test case 3 for checking invalid
         [Test]
-        public void AnalyzeTriangle_Invalid3()
+        public void AnalyzeTriangle_Invalid3_Check()
         {
             //Arrange
             int firstside = 3;
